@@ -41,7 +41,7 @@ noticeRouter.patch('/api/update/:id', async (req, res) => {
     }
 });
 
-noticeRouter.delete('/api/update/:id', async (req, res) => {
+noticeRouter.delete('/api/delete/:id', async (req, res) => {
     // const payload = req.body;
     let id = new ObjectId(req.params.id);
     try {
